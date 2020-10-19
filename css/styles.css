@@ -103,6 +103,6 @@ d-md-inline-block {
 
 .product-device {
     background-image: url("../images/headline-source-code1.jpg");
-    opacity: 0.8;
+    /*opacity: 0.8;*/
     height: 640px;
 }
