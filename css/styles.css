@@ -83,3 +83,11 @@
 d-md-inline-block {
     padding-top: 1rem !important;
 }
+
+.dot {
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: dimgray;
+    border-radius: 50%;
+    display: inline-block;
+}
