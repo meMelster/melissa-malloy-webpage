@@ -116,6 +116,10 @@ d-md-inline-block {
     background-size: contain;
 }
 
+.py-2{
+    padding-right: 2rem!important;
+}
+
 @media only screen and (max-width: 1000px) {
     .product-device {
         display: none !important;
