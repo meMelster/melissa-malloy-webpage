@@ -116,8 +116,10 @@ d-md-inline-block {
     background-size: contain;
 }
 
-.py-2{
-    padding-right: 2rem!important;
+@media screen and (min-width: 769px) {
+    .py-2 {
+        padding-right: 2rem !important;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
