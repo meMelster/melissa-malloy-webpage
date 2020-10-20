@@ -20,10 +20,6 @@
     text-decoration: none;
 }
 
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
 .product-device {
     position: absolute;
     right: 10%;
@@ -106,3 +102,20 @@ d-md-inline-block {
     /*opacity: 0.8;*/
     height: 640px;
 }
+
+#algorithmicTrading{
+    background-image: url("../images/trading-script-code-snippet.PNG");
+    background-position: 0% 15%;
+}
+
+#arApp{
+    background-color: lightslategrey!important;
+    background-image: url("../images/logo-unity.png");
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
+    background-size: contain;
+}
+
+/* shrink (or remove) product-device at media viewport 1020px
+    once it starts covering up the headline letters
+ */
