@@ -23,7 +23,7 @@
 .product-device {
     position: absolute;
     right: 10%;
-    bottom: -30%;
+    bottom: -35%;
     width: 300px;
     height: 540px;
     background-color: #333;
@@ -116,6 +116,16 @@ d-md-inline-block {
     background-size: contain;
 }
 
-/* shrink (or remove) product-device at media viewport 1020px
-    once it starts covering up the headline letters
- */
+@media only screen and (max-width: 1000px) {
+    .product-device {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container a {
+        float: none!important;
+        display: block!important;
+        text-align: center!important;
+    }
+}
