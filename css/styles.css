@@ -108,6 +108,20 @@ d-md-inline-block {
     background-position: 0% 15%;
 }
 
+#devModeInc{
+    background-image: url("../images/devmodeinc-screenshot.png");
+    background-position: 40% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#oldSchool{
+    background-image: url("../images/customizable-desktop-screenshot.png");
+    background-position: 40% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #arApp{
     background-color: lightslategrey!important;
     background-image: url("../images/logo-unity.png");
